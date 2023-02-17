@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  .container {
+    background-image:linear-gradient(to bottom right,#000000 ,#461111,#000000);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .box {
+    border-radius: 280px;
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(circle farthest-side, #EEEEEE, #FF0000);
+    box-shadow: rgba(178, 6, 0, 0.56) 0px 8px 50px 44px;
+  }
